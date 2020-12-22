@@ -6,6 +6,6 @@
 
 ## About #MiyonTicker
 
-- Open Source of [#InstanceTicker](https://github.com/MiyonMiyon/InstanceTicker/) Project
+- [#InstanceTicker](https://github.com/MiyonMiyon/InstanceTicker/) Successor project
 - coming soon
 
