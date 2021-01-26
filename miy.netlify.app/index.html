@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MiyonTicker (JavaScript テストページ)</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="loading.css"></link>
+</head>
+<body>
+<div id="loading" style="background-color:#fff;">
+  <img src="miyon.gif" alt="loading">
+</div>
+<div id="contents" class="hidden" style="background-color:#fff;">
+<h1>MiyonTicker (JavaScript テストページ)</h1>
+<script>
+$(document).ready(function () {
+    $.getJSON("MiyonTicker.json", function(set){
+    $("#output").append("<li><b>" + set.description + "</b></li>");
+    $("#output").append("<li><b>" + set.version + "</b></li>");
+    $("#output").append("<li><b>" + set.copyright +" " + set.licence + "</b></li>");
+        for(var i in set.instances){
+            $("#output").append("<li>" + set.instances[i].id + " - " + set.instances[i].text + "</li>");
+        }
+    
+    });
+});
+</script>
+
+<ul id="output"></ul>
+  
+</div>
+
+  <script src="loading.js"></script>
+
+
+</body>
+</html>
