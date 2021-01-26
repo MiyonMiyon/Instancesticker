@@ -6,7 +6,7 @@
     "author":"https://github.com/MiyonMiyon/",
     "committer":"https://github.com/weepjp/",
     "website":"https://miy.netlify.app/",
-    "version":"202101260739",
+    "version":"202101261833",
     
     "types":["Type-0","Type-1","Type-2"],
     "typep":["https://miy.one/0/","https://miy.one/1/","https://miy.one/2/"],
@@ -14,6 +14,20 @@
     "typex":[".webp",".webp",".webp"],
 
     "softwares":[{
+        "sid": "0",
+        "sname": "短縮名",
+        "stext": "正式名",
+        "swidth": "画像横",
+        "stcolor": "文字色",
+        "sbcolor": "背景色",
+        "sscolor": "文字影色",
+        "simg": "画像URL",
+        "simi": "画像情報",
+        "swiki": "WikiURL",
+        "sentry": "採用日時"
+    
+    },
+    {
         "sid": "1",
         "sname": "mstdnj",
         "stext": "Mastodon-ja",
@@ -280,6 +294,24 @@
     }],
 
     "instances":[{
+        "id": 0,
+        "xid": "0",
+        "sns": "0",
+        "host": "インスタンスのあるホスト",
+        "domain": "ドメイン名",
+        "text": "表示名",
+        "width": "画像横",
+        "tcolor": "文字色",
+        "bcolor": "背景色",
+        "scolor": "文字影色",
+        "ico": "i1",
+        "img": "画像URL",
+        "imi": "画像情報",
+        "wiki": "WikiURL",
+        "entry": "追加日時"
+    
+    },
+    {
         "id": 62,
         "xid": "10",
         "sns": "1",
@@ -18369,5 +18401,5 @@
         "entry": "2001-01-25"
     }],
 
-    "lagsec":"0.011010885238647"
+    "lagsec":"0.0098299980163574"
 }
