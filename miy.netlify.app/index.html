@@ -2,31 +2,114 @@
 <head>
   <meta charset="utf-8" />
   <title>MiyonTicker (JavaScript テストページ)</title>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
   <link rel="stylesheet" href="loading.css"></link>
+  <style>
+body{
+   color:#fff;
+   background-color:#223;
+}
+
+#wrap{
+   width:640px;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+table {
+   border-collapse:collapse;
+}
+
+td {
+   border:solid 2px #fff;
+   text-align:left;
+   font-size:12px;
+   height:20px;
+   font-family:monospace;
+   padding:0 3px 0 3px;
+}
+
+
+.box{
+  padding:16px;
+  border:solid 3px transparent;
+  border-image: url("border.png");
+  border-image-slice:1;
+  border-image-repeat:stretch;
+}
+
+.box2{
+  margin:16px 0 16px 0;
+  border:solid 3px transparent;
+  border-image: url("border.png");
+  border-image-slice:1;
+  border-image-repeat:stretch;
+  background: linear-gradient(90deg,#207b8a,#3e4c61);
+}
+
+</style>
 </head>
 <body>
-<div id="loading" style="background-color:#fff;">
+<div id="loading" style="background-color:#223;">
   <img src="miyon.gif" alt="loading">
 </div>
-<div id="contents" class="hidden" style="background-color:#fff;">
-<h1>MiyonTicker (JavaScript テストページ)</h1>
+<div id="contents" class="hidden">
+
+
+<div id="wrap"><div class="box">
+
+<div class="box2">MiyonTicker (JavaScript テストページ)</div>
+
 <script>
 $(document).ready(function () {
     $.getJSON("MiyonTicker.json", function(set){
-    $("#output").append("<li><b>" + set.description + "</b></li>");
-    $("#output").append("<li><b>" + set.version + "</b></li>");
-    $("#output").append("<li><b>" + set.copyright +" " + set.licence + "</b></li>");
-        for(var i in set.instances){
-            $("#output").append("<li>" + set.instances[i].id + " - " + set.instances[i].text + "</li>");
+        $("#output").append("<tr><td>" + set.description + "</td></tr>");
+        $("#output").append("<tr><td>" + set.version + "</td></tr>");
+        $("#output").append("<tr><td>" + set.copyright +" " + set.licence + "</td></tr>");
+
+        
+        
+        for( var i in set.instances ){
+        
+            if(!set.instances[i].text){
+                itext = set.instances[i].host;
+            }else{
+                itext = set.instances[i].text;
+            }
+            
+            if(!set.instances[i].ico){
+                iico = "https://miy.pw/0/_" + set.instances[i].sns + ".webp?";
+            }else{
+                iico = "https://miy.pw/11/" + set.instances[i].ico + ".webp?";
+            }
+            
+            
+            
+            if(!set.instances[i].bcolor){
+                ibgc = set.softwares[set.instances[i].sns].sbcolor;
+            }else{
+                ibgc = set.instances[i].bcolor;
+            }
+            
+            $("#listput").append("<tr><td> " + set.instances[i].xid + " </td><td style='width:240px!important;background:linear-gradient(90deg," + ibgc + ",transparent)!important;'><img src=" + iico + ">&nbsp;" + itext + "</td></tr>");
+        
+        
         }
+        
     
     });
 });
 </script>
 
-<ul id="output"></ul>
-  
+
+<table id="listput"></table>
+<br>
+
+<table id="output"></table>
+<br>
+
+</div></div>
+
 </div>
 
   <script src="loading.js"></script>
