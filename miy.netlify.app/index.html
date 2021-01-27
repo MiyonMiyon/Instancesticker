@@ -70,7 +70,7 @@ $(document).ready(function () {
         $("#output").append("<tr><td>" + set.version + "</td></tr>");
         $("#output").append("<tr><td>" + set.copyright +" " + set.licence + "</td></tr>");
 
-        
+        var flag = 1;
         
         for( var i in set.instances ){
         
@@ -113,12 +113,14 @@ $(document).ready(function () {
             
             
             $("#listput").append("<tr><td> " + set.instances[i].xid + " </td><td><img src='" + icon + "' title='" + isnst + "'></td><td style='width:240px!important;background:linear-gradient(90deg," + ibc + ",transparent);text-shadow:" + isc + " 1px 1px," + isc + " -1px 1px," + isc + " 1px -1px," + isc + " -1px -1px;font-weight:bolder;color:" + itc + ";'><img src='" + iico + "'>&nbsp;" + itext + "</td></tr>");
-        
-        
+            
+            flag++;
         }
         
     
     });
+
+
 });
 </script>
 
@@ -134,9 +136,6 @@ $(document).ready(function () {
 </div></div>
 
 </div>
-
-  <script src="loading.js"></script>
-
-
+<script src="loading.js"></script>
 </body>
 </html>
