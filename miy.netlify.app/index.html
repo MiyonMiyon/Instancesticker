@@ -59,11 +59,14 @@ td {
 
 <div id="wrap"><div class="box">
 
-<div class="box2">MiyonTicker (JavaScript テストページ)</div>
+
 
 <script>
 $(document).ready(function () {
     $.getJSON("MiyonTicker.json", function(set){
+    
+        $("#titput").append("MiyonTicker (JavaScript テストページ)");
+    
         $("#output").append("<tr><td>" + set.description + "</td></tr>");
         $("#output").append("<tr><td>" + set.version + "</td></tr>");
         $("#output").append("<tr><td>" + set.copyright +" " + set.licence + "</td></tr>");
@@ -79,9 +82,9 @@ $(document).ready(function () {
             }
             
             if(!set.instances[i].ico){
-                iico = "https://miy.pw/0/_" + set.instances[i].sns + ".webp?";
+                iico = set.typep[0] + "_" + set.instances[i].sns + ".webp?";
             }else{
-                iico = "https://miy.pw/11/" + set.instances[i].ico + ".webp?";
+                iico = set.typep[1] + "" + set.instances[i].ico + ".webp?";
             }
             
             
@@ -101,6 +104,8 @@ $(document).ready(function () {
     });
 });
 </script>
+
+<div id="titput" class="box2"></div>
 
 
 <table id="listput"></table>
