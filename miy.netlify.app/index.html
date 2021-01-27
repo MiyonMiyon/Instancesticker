@@ -81,21 +81,39 @@ $(document).ready(function () {
                 itext = set.instances[i].text;
             }
             
+            icon = set.typep[0] + "" + set.instances[i].sns + ".webp?";
             if(!set.instances[i].ico){
-                iico = set.typep[0] + "_" + set.instances[i].sns + ".webp?";
+                iico = icon;
             }else{
                 iico = set.typep[1] + "" + set.instances[i].ico + ".webp?";
             }
             
             
             
-            if(!set.instances[i].bcolor){
-                ibgc = set.softwares[set.instances[i].sns].sbcolor;
+            isns = set.instances[i].sns;
+            isnst = set.softwares[isns].stext;
+            
+            if(!set.instances[i].tcolor){
+                itc = set.softwares[isns].stbcolor;
             }else{
-                ibgc = set.instances[i].bcolor;
+                itc = set.instances[i].tcolor;
             }
             
-            $("#listput").append("<tr><td> " + set.instances[i].xid + " </td><td style='width:240px!important;background:linear-gradient(90deg," + ibgc + ",transparent)!important;'><img src=" + iico + ">&nbsp;" + itext + "</td></tr>");
+            if(!set.instances[i].bcolor){
+                ibc = set.softwares[isns].sbcolor;
+            }else{
+                ibc = set.instances[i].bcolor;
+            }
+            
+            if(!set.instances[i].scolor){
+                isc = set.softwares[isns].ssbcolor;
+            }else{
+                isc = set.instances[i].scolor;
+            }
+
+            
+            
+            $("#listput").append("<tr><td> " + set.instances[i].xid + " </td><td><img src='" + icon + "' title='" + isnst + "'></td><td style='width:240px!important;background:linear-gradient(90deg," + ibc + ",transparent);text-shadow:" + isc + " 1px 1px," + isc + " -1px 1px," + isc + " 1px -1px," + isc + " -1px -1px;font-weight:bolder;color:" + itc + ";'><img src='" + iico + "'>&nbsp;" + itext + "</td></tr>");
         
         
         }
