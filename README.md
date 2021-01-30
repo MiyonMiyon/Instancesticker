@@ -14,10 +14,10 @@
 
 # Sites
 - on Netlify - https://miy.netlify.app/
-- on mixhost - https://miy.one/
+- on miy.one - https://miy.one/
+- on GitHub - https://miyonmiyon.github.io/MiyonTicker/miy.netlify.app/
 
 # Licence
 - (c)2019 Based on the original by custom.css of [Odakyu.app](https://odakyu.app/about) 
 - (c)2020 Based on the original by custom.css of [Kurage.cc](https://kurage.cc/about)
 - (c)2019-2021 MiyonMiyon. Released under the MIT License.
-
