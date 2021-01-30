@@ -9,13 +9,14 @@
 - またはそれ用のツールとかいろいろ。
 
 # Files
+- /docs/
 - MiyonTicker.json - Fediverse Instances Data of JSON
 - index.html - Sample JavaScript
 
 # Sites
-- on Netlify - https://n.miy.one/
-- on miy.one - https://miy.one/
-- on GitHub - https://miyonmiyon.github.io/MiyonTicker/miy.netlify.app/
+- - on Netlify - https://n.miy.one/
+- - on GitHub - https://g.miy.one/
+- - on miy.one - https://miy.one/
 
 # Licence
 - (c)2019 Based on the original by custom.css of [Odakyu.app](https://odakyu.app/about) 
