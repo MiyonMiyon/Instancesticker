@@ -13,7 +13,7 @@
 - index.html - Sample JavaScript
 
 # Sites
-- on Netlify - https://miy.netlify.app/
+- on Netlify - https://n.miy.one/
 - on miy.one - https://miy.one/
 - on GitHub - https://miyonmiyon.github.io/MiyonTicker/miy.netlify.app/
 
