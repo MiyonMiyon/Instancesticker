@@ -2,23 +2,17 @@
 
 # #MiyonTicker
 
-![#MiyonTicker](https://raw.githubusercontent.com/MiyonMiyon/MiyonTicker/master/about.png "#MiyonTicker")
-
-## About #MiyonTicker
-
-- [#InstanceTicker](https://github.com/MiyonMiyon/InstanceTicker/) Successor project
-- coming soon
+![#MiyonTicker](https://repository-images.githubusercontent.com/293203730/7413bb00-636c-11eb-8683-b4acd530459f "#MiyonTicker")
 
 # About #MiyonTicker
-![#MiyonTicker](https://raw.githubusercontent.com/MiyonMiyon/MiyonTicker/master/about.png "#MiyonTicker")
-- [#InstanceTicker](https://github.com/MiyonMiyon/InstanceTicker) で培ったデータを JSON に移植し、これをみんなで共有していこうとするプロジェクトです。
+- [#InstanceTicker](https://github.com/MiyonMiyon/InstanceTicker) で培ったデータを JSON に移植。設置。みんなで共有。
+- またはそれ用のツールとかいろいろ。
 
 # Files
 - MiyonTicker.json - Fediverse Instances Data of JSON
 - index.html - Sample JavaScript
 
 # Sites
-- on GitHub - https://miyonmiyon.github.io/miy/
 - on Netlify - https://miy.netlify.app/
 - on mixhost - https://miy.one/
 
