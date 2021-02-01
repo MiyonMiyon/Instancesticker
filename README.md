@@ -14,11 +14,13 @@
 - index.html - Sample JavaScript
 
 # Sites
-- on miy.one - https://miy.one/
-- on Netlify - https://n.miy.one/
-- on GitHub - https://g.miy.one/
+- miy.one -[![#MiyonTicker](https://raw.githubusercontent.com/MiyonMiyon/MiyonTicker/master/docs/favicon.png "#MiyonTicker")](https://docs.github.com/ja/github/working-with-github-pages/about-github-pages) https://miy.one/
+- - [![Github Pages](https://res.cloudinary.com/weep/icon/github.png "Github Pages")](https://docs.github.com/ja/github/working-with-github-pages/about-github-pages) - https://g.miy.one/
+- - [![Netlify](https://res.cloudinary.com/weep/icon/netlify.png "Netlify")](https://netlify.com/) - https://n.miy.one/
+- - [![Vercel](https://res.cloudinary.com/weep/icon/vercel.png "vercel")](https://vercel.com/) - https://v.miy.one/
 
 # Licence
 - (c)2019 Based on the original by custom.css of [Odakyu.app](https://odakyu.app/about) 
 - (c)2020 Based on the original by custom.css of [Kurage.cc](https://kurage.cc/about)
 - (c)2019-2021 MiyonMiyon. Released under the MIT License.
+
