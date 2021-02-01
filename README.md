@@ -14,7 +14,7 @@
 - index.html - Sample JavaScript
 
 # Sites
-- miy.one -[![#MiyonTicker](https://raw.githubusercontent.com/MiyonMiyon/MiyonTicker/master/docs/favicon.png "#MiyonTicker")](https://docs.github.com/ja/github/working-with-github-pages/about-github-pages) https://miy.one/
+- [![miy.one](https://raw.githubusercontent.com/MiyonMiyon/MiyonTicker/master/docs/favicon.png "#miy.one")](https://miy.one/) - https://miy.one/
 - - [![Github Pages](https://res.cloudinary.com/weep/icon/github.png "Github Pages")](https://docs.github.com/ja/github/working-with-github-pages/about-github-pages) - https://g.miy.one/
 - - [![Netlify](https://res.cloudinary.com/weep/icon/netlify.png "Netlify")](https://netlify.com/) - https://n.miy.one/
 - - [![Vercel](https://res.cloudinary.com/weep/icon/vercel.png "vercel")](https://vercel.com/) - https://v.miy.one/
