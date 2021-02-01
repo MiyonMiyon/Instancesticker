@@ -19,7 +19,7 @@
 - - [![Netlify](https://res.cloudinary.com/weep/icon/netlify.png "Netlify")](https://netlify.com/) - https://n.miy.one/
 - - [![Vercel](https://res.cloudinary.com/weep/icon/vercel.png "vercel")](https://vercel.com/) - https://v.miy.one/
 
-# Licence
+# License
 - (c)2018 Based on the original by custom.css of [Odakyu.app](https://odakyu.app/about) 
 - (c)2019 Based on the original by custom.css of [Kurage.cc](https://kurage.cc/about)
 - (c)2018-2021 MiyonMiyon. Released under the MIT License.
