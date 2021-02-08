@@ -67,9 +67,9 @@ $(document).ready(function () {
                 
                 if(flag == 1){ // 出だしには CSS の最初の部分入れる予定。
                      $("#ccss").append("<span>@charset 'utf-8';<br /></span>");
-                     $("#ccss").append("<span>/*** #MiyonTicker (Type-beta) ***/<br /></span>");
+                     $("#ccss").append("<span>/*** #MiyonTicker (Type-beta) 開発中です。使用できません。 ***/<br /></span>");
                      $("#ccss").append("<span>/*** (C)2018-2020 MiyonMiyon, Released under the MIT license. ***/<br /></span>");
-                     $("#ccss").append("<span>/*** Based on the original custom.css by (C)2018 kyori19, (C)2019 yi0713, ***/<br /></span>");
+                     $("#ccss").append("<span>/*** Based on the original custom.css by (C)2018 kyori19 and (C)2019 yi0713 ***/<br /></span>");
                      $("#ccss").append("<span>:root{ --a:.4!important; --e:ellipsis!important; --p:pre!important; --b:block!important;  --i:inline!important; --h:20px!important; --w:240px!important; }<br /></span>");
                 }
 /*
@@ -81,7 +81,7 @@ $(document).ready(function () {
 
 */
                 
-                $("#ccss").append("<span id='a" + set.instances[i].xid + "'> .status a[href^='https://" + set.instances[i].host + "/'] .display-name::after{width:var(--w);height:var(--h);display:var(--b);white-space:var(--p);text-overflow:var(--e);background:no-repeat url('https://miy.one/g/" + set.instances[i].xid + ".svg?2');} .status__display-name[href^='https://" + set.instances[i].host + "/'].muted::after, .notification__display-name[href^='https://" + set.instances[i].host + "/']::after {width:var(--w);height:var(--h);display:var(--i);white-space:var(--p);text-overflow:var(--e);background:no-repeat url('https://miy.one/g/" + set.instances[i].xid + ".svg?2');opacity:var(--a);}<br /></span>");
+                $("#ccss").append("<span id='a" + set.instances[i].xid + "'> .status a[href^='https://" + set.instances[i].host + "/'] .display-name::after{width:var(--w);height:var(--h);display:var(--b);white-space:var(--p);text-overflow:var(--e);background:no-repeat url('https://localhost/g/" + set.instances[i].xid + ".svg?2');} .status__display-name[href^='https://" + set.instances[i].host + "/'].muted::after, .notification__display-name[href^='https://" + set.instances[i].host + "/']::after {width:var(--w);height:var(--h);display:var(--i);white-space:var(--p);text-overflow:var(--e);background:no-repeat url('https://localhost/g/" + set.instances[i].xid + ".svg?2');opacity:var(--a);}<br /></span>");
                 
                 
                 
