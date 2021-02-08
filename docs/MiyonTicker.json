@@ -7,7 +7,7 @@
     "author": "https://github.com/MiyonMiyon/",
     "committer": "https://github.com/weepjp/",
     "website": "https://miy.netlify.app/",
-    "version": "202101290310",
+    "version": "202102062035",
     "types": [
         "Type-0",
         "Type-1",
@@ -19,9 +19,9 @@
         "https://miy.pw/2/"
     ],
     "typew": [
-        "16",
-        "16",
-        "20"
+        0,
+        0,
+        4
     ],
     "typex": [
         ".webp",
@@ -36,10 +36,8 @@
             "swidth": "画像横",
             "stcolor": "文字色",
             "sbcolor": "背景色",
-            "sscolor": "文字影色",
-            "simg": "画像URL",
             "simi": "画像情報",
-            "surl": "WikiURL",
+            "surl": "Wiki等のURL",
             "sentry": "採用日時",
             "sexit": null
         },
@@ -50,11 +48,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#26a",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
             "surl": "https://ja.mstdn.wiki/?curid=101",
-            "sentry": "2018-10-06",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -64,11 +60,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#46a",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1732",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=101",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -78,11 +72,9 @@
             "swidth": "16",
             "stcolor": "#da5",
             "sbcolor": "#123",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
             "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -92,11 +84,9 @@
             "swidth": "16",
             "stcolor": "#9d4",
             "sbcolor": "#444",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=1909",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -106,11 +96,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#888",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=1443",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -120,11 +108,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#c77",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=1004",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -134,11 +120,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#5ce",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2448",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -148,11 +132,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#f55",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2202",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -162,39 +144,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#171",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
-            "sexit": null
-        },
-        {
-            "sid": 10,
-            "sname": "soapboxle",
-            "stext": "Soapbox Legacy",
-            "swidth": "16",
-            "stcolor": "#fff",
-            "sbcolor": "#10f",
-            "sscolor": null,
-            "simg": null,
-            "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
-            "sexit": null
-        },
-        {
-            "sid": 11,
-            "sname": "soapboxfe",
-            "stext": "Soapbox",
-            "swidth": "16",
-            "stcolor": "#fff",
-            "sbcolor": "#08d",
-            "sscolor": null,
-            "simg": null,
-            "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2220",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -204,25 +156,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#2cb",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
-            "sexit": null
-        },
-        {
-            "sid": 13,
-            "sname": "dolphin",
-            "stext": "Dolphin",
-            "swidth": "16",
-            "stcolor": "#fff",
-            "sbcolor": "#57a",
-            "sscolor": null,
-            "simg": null,
-            "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2621",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -232,11 +168,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#659",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2347",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -246,11 +180,9 @@
             "swidth": "16",
             "stcolor": "#fc2",
             "sbcolor": "#17a",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2619",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -260,11 +192,9 @@
             "swidth": "16",
             "stcolor": "#0d7",
             "sbcolor": "#333",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2545",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -274,11 +204,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#779",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://zotlabs.org/page/hubzilla/hubzilla-project",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -288,11 +216,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#1ab",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://ja.mstdn.wiki/?curid=2357",
+            "sentry": "2021-01-06",
             "sexit": null
         },
         {
@@ -302,11 +228,9 @@
             "swidth": "16",
             "stcolor": "#fff",
             "sbcolor": "#069",
-            "sscolor": null,
-            "simg": null,
             "simi": "logo",
-            "surl": "https://ja.mstdn.wiki/?curid=1006",
-            "sentry": null,
+            "surl": "https://juick.com/",
+            "sentry": "2021-01-06",
             "sexit": null
         }
     ],
@@ -1006,6 +930,23 @@
             "imi": null,
             "url": null,
             "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 1010,
+            "xid": "gi",
+            "sns": 1,
+            "host": "club-house.work",
+            "domain": "club-house.work",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2021-02-05",
             "exit": null
         },
         {
@@ -2182,31 +2123,14 @@
             "exit": null
         },
         {
-            "id": 169,
-            "xid": "2J",
-            "sns": 1,
-            "host": "hiroshimastdn.club",
-            "domain": "hiroshimastdn.club",
-            "text": "ひろしま丼",
-            "tcolor": null,
-            "bcolor": "#383",
-            "scolor": null,
-            "ico": null,
-            "img": null,
-            "imi": null,
-            "url": "https://ja.mstdn.wiki/?curid=2639",
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
             "id": 170,
             "xid": "2K",
             "sns": 1,
             "host": "hiroshimastodon.red",
             "domain": "hiroshimastodon.red",
-            "text": null,
+            "text": "ひろしますとどん",
             "tcolor": null,
-            "bcolor": null,
+            "bcolor": "#383",
             "scolor": null,
             "ico": null,
             "img": null,
@@ -3147,23 +3071,6 @@
             "img": null,
             "imi": null,
             "url": "https://ja.mstdn.wiki/?curid=1001",
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
-            "id": 224,
-            "xid": "3C",
-            "sns": 1,
-            "host": "mstdn.kuriuzu.tk",
-            "domain": "kuriuzu.tk",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": null,
-            "img": null,
-            "imi": null,
-            "url": null,
             "entry": "2001-01-25",
             "exit": null
         },
@@ -4882,6 +4789,23 @@
             "imi": null,
             "url": null,
             "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 1009,
+            "xid": "gh",
+            "sns": 1,
+            "host": "mstdn.omisosiru.net",
+            "domain": "omisosiru.net",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2021-02-03",
             "exit": null
         },
         {
@@ -8914,6 +8838,23 @@
             "exit": null
         },
         {
+            "id": 1006,
+            "xid": "ge",
+            "sns": 2,
+            "host": "social.imal.org",
+            "domain": "imal.org",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
             "id": 545,
             "xid": "8N",
             "sns": 2,
@@ -12637,6 +12578,23 @@
             "exit": null
         },
         {
+            "id": 976,
+            "xid": "fK",
+            "sns": 3,
+            "host": "pu.akirin.xyz",
+            "domain": "akirin.xyz",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
             "id": 732,
             "xid": "bO",
             "sns": 3,
@@ -13147,6 +13105,23 @@
             "exit": null
         },
         {
+            "id": 977,
+            "xid": "fL",
+            "sns": 3,
+            "host": "gleasonator.com",
+            "domain": "gleasonator.com",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": "7m",
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
             "id": 762,
             "xid": "ci",
             "sns": 3,
@@ -13174,6 +13149,23 @@
             "bcolor": null,
             "scolor": null,
             "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 978,
+            "xid": "fM",
+            "sns": 3,
+            "host": "social.handholding.io",
+            "domain": "handholding.io",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": "7n",
             "img": null,
             "imi": null,
             "url": null,
@@ -13589,6 +13581,23 @@
             "exit": null
         },
         {
+            "id": 979,
+            "xid": "fN",
+            "sns": 3,
+            "host": "neenster.org",
+            "domain": "neenster.org",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": "7o",
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
             "id": 786,
             "xid": "cG",
             "sns": 3,
@@ -13657,6 +13666,23 @@
             "exit": null
         },
         {
+            "id": 980,
+            "xid": "fO",
+            "sns": 3,
+            "host": "nixnet.social",
+            "domain": "nixnet.social",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": "7u",
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
             "id": 790,
             "xid": "cK",
             "sns": 3,
@@ -13705,6 +13731,23 @@
             "imi": null,
             "url": null,
             "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 1007,
+            "xid": "gf",
+            "sns": 3,
+            "host": "pleroma.paritybit.ca",
+            "domain": "paritybit.ca",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2021-02-01",
             "exit": null
         },
         {
@@ -13990,6 +14033,23 @@
             "bcolor": null,
             "scolor": null,
             "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 981,
+            "xid": "fP",
+            "sns": 3,
+            "host": "pleroma.ryusei.dev",
+            "domain": "ryusei.dev",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": "7p",
             "img": null,
             "imi": null,
             "url": null,
@@ -15170,6 +15230,23 @@
             "exit": null
         },
         {
+            "id": 1011,
+            "xid": "gj",
+            "sns": 4,
+            "host": "ne.akarinext.org",
+            "domain": "ne.akarinext.org",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2021-02-05",
+            "exit": null
+        },
+        {
             "id": 877,
             "xid": "e9",
             "sns": 4,
@@ -15575,6 +15652,23 @@
             "imi": null,
             "url": null,
             "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 1012,
+            "xid": "gk",
+            "sns": 4,
+            "host": "sushi.ski",
+            "domain": "sushi.ski",
+            "text": null,
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": "94",
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2021-02-05",
             "exit": null
         },
         {
@@ -16870,108 +16964,6 @@
             "exit": null
         },
         {
-            "id": 976,
-            "xid": "fK",
-            "sns": 11,
-            "host": "pu.akirin.xyz",
-            "domain": "akirin.xyz",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": null,
-            "img": null,
-            "imi": null,
-            "url": null,
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
-            "id": 977,
-            "xid": "fL",
-            "sns": 11,
-            "host": "gleasonator.com",
-            "domain": "gleasonator.com",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": "7m",
-            "img": null,
-            "imi": null,
-            "url": null,
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
-            "id": 978,
-            "xid": "fM",
-            "sns": 11,
-            "host": "social.handholding.io",
-            "domain": "handholding.io",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": "7n",
-            "img": null,
-            "imi": null,
-            "url": null,
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
-            "id": 979,
-            "xid": "fN",
-            "sns": 11,
-            "host": "neenster.org",
-            "domain": "neenster.org",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": "7o",
-            "img": null,
-            "imi": null,
-            "url": null,
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
-            "id": 980,
-            "xid": "fO",
-            "sns": 11,
-            "host": "nixnet.social",
-            "domain": "nixnet.social",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": "7u",
-            "img": null,
-            "imi": null,
-            "url": null,
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
-            "id": 981,
-            "xid": "fP",
-            "sns": 11,
-            "host": "pleroma.ryusei.dev",
-            "domain": "ryusei.dev",
-            "text": null,
-            "tcolor": null,
-            "bcolor": null,
-            "scolor": null,
-            "ico": "7p",
-            "img": null,
-            "imi": null,
-            "url": null,
-            "entry": "2001-01-25",
-            "exit": null
-        },
-        {
             "id": 58,
             "xid": "W",
             "sns": 11,
@@ -17036,7 +17028,7 @@
             "img": null,
             "imi": null,
             "url": null,
-            "entry": null,
+            "entry": "2001-01-25",
             "exit": null
         },
         {
@@ -17053,7 +17045,7 @@
             "img": null,
             "imi": null,
             "url": null,
-            "entry": null,
+            "entry": "2001-01-25",
             "exit": null
         },
         {
@@ -17070,7 +17062,7 @@
             "img": null,
             "imi": null,
             "url": "https://ja.mstdn.wiki/Plume",
-            "entry": null,
+            "entry": "2001-01-25",
             "exit": null
         },
         {
@@ -17087,7 +17079,7 @@
             "img": null,
             "imi": null,
             "url": null,
-            "entry": null,
+            "entry": "2001-01-25",
             "exit": null
         },
         {
@@ -17104,7 +17096,7 @@
             "img": null,
             "imi": null,
             "url": null,
-            "entry": null,
+            "entry": "2001-01-25",
             "exit": null
         },
         {
@@ -17121,7 +17113,24 @@
             "img": null,
             "imi": null,
             "url": null,
-            "entry": null,
+            "entry": "2001-01-25",
+            "exit": null
+        },
+        {
+            "id": 1008,
+            "xid": "gg",
+            "sns": 14,
+            "host": "plume.xn--krsgw--n73t.com",
+            "domain": "xn--krsgw--n73t.com",
+            "text": "plume.xn--krsgw--雛.com",
+            "tcolor": null,
+            "bcolor": null,
+            "scolor": null,
+            "ico": null,
+            "img": null,
+            "imi": null,
+            "url": null,
+            "entry": "2021-02-02",
             "exit": null
         },
         {
@@ -17397,5 +17406,5 @@
             "exit": null
         }
     ],
-    "lagsec": "0.012644052505493"
+    "lagsec": "0.012640953063965"
 }
