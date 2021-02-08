@@ -1,110 +1,38 @@
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta property="og:image" content="https://repository-images.githubusercontent.com/293203730/7413bb00-636c-11eb-8683-b4acd530459f" />
+  <meta property="og:site_name" content="#MiyonTicker" />
+  <meta property="og:title" content="#MiyonTicker" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://g.miy.one/" />
+  <meta property="og:description" content="#MiyonTicker is Open Source of #InstanceTicker Project." />
   <title>#MiyonTicker</title>
   <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="miy.js"></script>
   <link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
-  <link rel="stylesheet" href="loading.css"></link>
-<script>
 
-function chq( obj,id ) {
-  if( !obj.checked ){
-   document.getElementById(id).style.display = "none";
-  }
-  else {
-   document.getElementById(id).style.display = "inline";
-  }
+<style>
+#loading{
+   width:100vw;
+   height:100vh;
+   position:relative;
 }
 
-$(document).ready(function () {
-    $.getJSON("MiyonTicker.json", function(set){
-        var flag = 1;
-        
-        for( var i in set.instances ){
-            if(!set.instances[i].exit){
-                if(!set.instances[i].text){
-                    itext = set.instances[i].host;
-                }else{
-                    itext = set.instances[i].text;
-                }
-                
-                icon = set.typep[0] + "" + set.instances[i].sns + ".webp?";
-                if(!set.instances[i].ico){
-                    iico = icon;
-                }else{
-                    iico = set.typep[1] + "" + set.instances[i].ico + ".webp?";
-                }
-                
-                
-                
-                isns = set.instances[i].sns;
-                isnst = set.softwares[isns].stext;
-                
-                if(!set.instances[i].tcolor){
-                    itc = set.softwares[isns].stbcolor;
-                }else{
-                    itc = set.instances[i].tcolor;
-                }
-                
-                if(!set.instances[i].bcolor){
-                    ibc = set.softwares[isns].sbcolor;
-                }else{
-                    ibc = set.instances[i].bcolor;
-                }
-                
-                if(!set.instances[i].scolor){
-                    isc = set.softwares[isns].ssbcolor;
-                }else{
-                    isc = set.instances[i].scolor;
-                }
-                
-                
-                
-                $("#instances").append("<tr><td><input type='checkbox' id='c" + set.instances[i].xid + "' checked='checked' onclick=chq(this,'a" + set.instances[i].xid + "')></input></td><td> " + set.instances[i].xid + " </td><td><img src='" + icon + "' title='" + isnst + "'></td><td style='width:240px!important;background:linear-gradient(90deg," + ibc + ",transparent);text-shadow:" + isc + " 1px 1px," + isc + " -1px 1px," + isc + " 1px -1px," + isc + " -1px -1px;font-weight:bolder;color:" + itc + ";'><img src='" + iico + "'>&nbsp;" + itext + "</td></tr>");
-                if(flag == 1){
-                     $("#ccss").append("<span>まだ未実装です。。<br /></span>");
-                     $("#ccss").append("<span>Under Construction<br /></span>");
-                     $("#ccss").append("<span>折り返し確認の aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br /></span>");
-                     $("#ccss").append("<span>折り返し確認の aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br /></span>");
-                }
-                
-                $("#ccss").append("<span id='a" + set.instances[i].xid + "'>" + set.instances[i].xid + "<br /></span>");
-                
-                
-                
-                flag++;
-                
-                if(flag > 1000){
-                   var loading = document.getElementById('loading');
-                   var contents = document.getElementById('contents');
-                   
-                   loading.style.display = 'none';
-                   contents.classList.remove('hidden');
-                }
-            }
-        }
-        
-        
-        
-        $("#output").append("<tr><td><a href='" + set.repository + "' target='_blank'>" + set.title + "</a></td></tr>");
-        $("#output").append("<tr><td><a href='MiyonTicker.json' target='_blank'>MiyonTicker.json</a></td></tr>");
-        $("#output").append("<tr><td>Ver." + set.version + "</td></tr>");
-        $("#output").append("<tr><td>Displayable name " + flag + " Instances</td></tr>");
-        $("#output").append("<tr><td>" + set.copyright +"</td></tr>");
-        $("#output").append("<tr><td>" + set.licence + "</td></tr>");
-        $("#output").append("<tr><td>(c)2019 Based on the original css by <a href='https://odakyu.app/about' target='_blank'>Odakyu.app</a></td></tr>");
-        $("#output").append("<tr><td>(c)2020 Based on the original css by <a href='https://kurage.cc/about' target='_blank'>Kurage.cc</a></td></tr>");
-        
-    
-    });
+
+#loading img{
+   position:absolute;
+   top:20%;
+   left:50%;
+   transform:translate(-50%,-50%);
+}
 
 
-});
-</script>
+.hidden{
+   display:none;
+}
   
   
-  
-  <style>
 body{
    color:#fff;
    background-color:#223;
@@ -136,42 +64,40 @@ td {
 
 
 .box{
-  padding:16px;
-  margin:0 0 16px 0;
-  border:solid 3px transparent;
-  border-image: url("border.png");
-  border-image-slice:1;
-  border-image-repeat:stretch;
-  width:280px; 
+   padding:16px;
+   margin:0 0 16px 0;
+   border:solid 3px transparent;
+   border-image: url("border.png");
+   border-image-slice:1;
+   border-image-repeat:stretch;
+   width:280px; 
 }
 
 .box2{
-  padding:16px;
-  margin:0 0 16px 0;
-  border:solid 3px transparent;
-  border-image: url("border.png");
-  border-image-slice:1;
-  border-image-repeat:stretch;
-  background: linear-gradient(90deg,#207b8a,#3e4c61);
-  width:280px; 
+   padding:16px;
+   margin:0 0 16px 0;
+   border:solid 3px transparent;
+   border-image: url("border.png");
+   border-image-slice:1;
+   border-image-repeat:stretch;
+   background: linear-gradient(90deg,#207b8a,#3e4c61);
+   width:280px; 
 }
 
 #ccss{
-  margin:0 0 16px 0;
-  white-space:pre-wrap;
-  width: 305px;
-  height: 300px;
-  overflow: auto;
-  border-radius:3px;
-  border:3px solid #888;
-  padding:10px;
-  font-size:8px;
-  user-select:all;
-  color:#223;
-  background-color:#eee;
+   margin:0 0 16px 0;
+   white-space:pre-wrap;
+   width: 305px;
+   height: 300px;
+   overflow: auto;
+   border-radius:3px;
+   border:3px solid #888;
+   padding:10px;
+   font-size:8px;
+   user-select:all;
+   color:#223;
+   background-color:#eee;
 }
-
-
 </style>
 </head>
 <body>
